@@ -18,7 +18,13 @@
     <div class="row">
         <div class="panel panel-default">
             <div class="panel-body">
-                Panel content
+                建议1
+            </div>
+            <div class="panel-footer"><span id="heart" class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>   <span id="count">0</span></div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                建议2
             </div>
             <div class="panel-footer"><span id="heart" class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>   <span id="count">0</span></div>
         </div>
