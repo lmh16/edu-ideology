@@ -16,15 +16,23 @@
         <h1>讨论平台</h1>
     </div>
     <div class="row">
+        <h2>Q4</h2>
         <div class="panel panel-default">
             <div class="panel-body">
-                建议1
+                Q4建议1
+            </div>
+            <div class="panel-footer"><span id="heart" class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>   <span id="count">0</span></div>
+        </div>
+        <h2>Q5</h2>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Q5建议1
             </div>
             <div class="panel-footer"><span id="heart" class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>   <span id="count">0</span></div>
         </div>
         <div class="panel panel-default">
             <div class="panel-body">
-                建议2
+                Q5建议2
             </div>
             <div class="panel-footer"><span id="heart" class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>   <span id="count">0</span></div>
         </div>
