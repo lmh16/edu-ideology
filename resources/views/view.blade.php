@@ -11,7 +11,7 @@
         <link href="{{ asset('storage/style.css') }}" rel="stylesheet">
 
     </head>
-    <body background="{{ asset('storage/bg.jpg') }}">
+    <body background="{{ asset('storage/bg.png') }}">
     <div class="container">
     <div class="page-header">
         <h1>精彩建议</h1>
