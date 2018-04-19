@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <title>教育思想大讨论</title>
 
@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
+        <link href="{{ asset('storage/welcome.css') }}" rel="stylesheet">
         <style>
             html, body {
                 background-color: #fff;
@@ -65,16 +66,22 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-
+        <div class="CoverImage FlexEmbed FlexEmbed--3by1">
+            <img class="bg-img full-height" src="{{ asset('storage/mainbg.png') }}" alt="">
             <div class="content">
                 <div class="title m-b-md">
-                    教育思想大讨论
+                    <img class="title-bg" src="{{ asset('storage/maintitle.png') }}" alt="">
                 </div>
 
                 <div class="links">
-                    <a href="/form">填写问卷</a>
-                    <a href="/view">讨论平台</a>
+                    <a id="a1" href="/form">
+                        <img class="button-bg" src="{{ asset('storage/mainbut1.png') }}" alt="">
+                    </a>
+                </div>
+                <div class="links">
+                    <a id="a2" href="/view">
+                        <img class="button-bg" src="{{ asset('storage/mainbut2.png') }}" alt="">
+                    </a>
                 </div>
             </div>
         </div>

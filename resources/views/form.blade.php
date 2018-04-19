@@ -3,15 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-        <title>填写问卷</title>
+        <title>教育思想大讨论 - 填写问卷</title>
 
         <!-- Fonts -->
         <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ asset('storage/style.css') }}" rel="stylesheet">
 
     </head>
-    <body>
+    <body background="{{ asset('storage/bg.jpg') }}">
     <div class="container">
         <div class="page-header">
             <h1>填写问卷</h1>
