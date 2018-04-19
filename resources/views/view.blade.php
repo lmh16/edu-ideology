@@ -16,14 +16,14 @@
     <div class="page-header">
         <h1>精彩建议</h1>
     </div>
-        <h2>Q4</h2>
+        <h3>在树立学术志向方面，您有哪些意见及建议？</h3>
         <div class="panel panel-default">
             <div class="panel-body">
                 Q4建议1
             </div>
             <div class="panel-footer"><span id="heart" class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>   <span id="count">0</span></div>
         </div>
-        <h2>Q5</h2>
+        <h3>在硕士培养方面，您对学校有哪些意见及建议？</h3>
         <div class="panel panel-default">
             <div class="panel-body">
                 Q5建议1
